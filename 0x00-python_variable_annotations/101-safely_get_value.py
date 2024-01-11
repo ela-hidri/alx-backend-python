@@ -6,9 +6,9 @@ duck-typed annotations function  safe_first_elemen
 from typing import Any, Mapping, Sequence, TypeVar, Union
 
 
-def safely_get_value(dct: Mapping, key: Any, 
+def safely_get_value(dct: Mapping, key: Any,
                      default: Union[TypeVar('T'), None] = None
-                     )-> Union[Any, TypeVar('T')]:
+                     ) -> Union[Any, TypeVar('T')]:
     """
     safely_get_value
     """
