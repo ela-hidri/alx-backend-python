@@ -4,7 +4,7 @@ type-annotated function  floor
 """
 
 
-def floor(n: float) -> float:
+def floor(n: float) -> int:
     """
     floor function
     """
