@@ -1,12 +1,10 @@
 #!/usr/bin/env python3
-"""
-duck-typed annotations function  zoom_array
-"""
+"""Defines Type checking"""
 from typing import List, Tuple
 
 
 def zoom_array(lst: Tuple, factor: int = 2) -> List:
-    """ fixing function zoom_array """
+    """Type Checking Exercise"""
     zoomed_in: List = [
         item for item in lst
         for i in range(int(factor))
@@ -14,7 +12,7 @@ def zoom_array(lst: Tuple, factor: int = 2) -> List:
     return zoomed_in
 
 
-array = [12, 72, 91]
+array = (12, 72, 91)
 
 zoom_2x = zoom_array(array)
 
